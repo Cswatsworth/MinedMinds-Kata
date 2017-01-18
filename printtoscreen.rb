@@ -1,5 +1,5 @@
 1.upto(100) do |i|
-if i == 3
+if i % 3 == 0
 puts "mined"
 elsif
  i == 5
